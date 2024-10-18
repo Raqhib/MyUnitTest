@@ -50,7 +50,12 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+//    unit test
     testImplementation(libs.mockito.core)
     testImplementation(libs.mockito.mockito.inline)
+
+//    UI test
+    androidTestImplementation(libs.androidx.runner)
+    androidTestImplementation(libs.androidx.rules)
 
 }
